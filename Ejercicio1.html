@@ -1,0 +1,30 @@
+<meta charset="UTF-8">
+<script type="text/javascript">
+   
+  //función que imprime los saltos de línea en pantalla.
+   function saltarLinea() {
+
+      document.write("<br>");
+      document.write("<br>");
+      document.write("<br>");
+      
+   }
+
+   //función que imprime mensajes y texto en pantalla, incluyendo a la función anterior.
+   function imprimir(frase) {
+
+      document.write(frase);
+      saltarLinea();
+   }
+   
+   var anho = 2022;
+   var miHermano = (anho - 1972);
+   var yo = (anho - 1973);
+   var diferenciaDeEdad = miHermano - yo ;
+
+   //Este código calcula la diferencia de edades entre mi hermano y yo.
+   imprimir("Mi hermano tiene: " + miHermano + " años");
+   imprimir("Yo tengo: " + yo + " años");
+   imprimir("Muestra diferencia de edad es de: " + diferenciaDeEdad + " años");
+
+</script>
